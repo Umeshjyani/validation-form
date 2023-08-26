@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box  ;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 2px solid white;
+}
+.navbtn{
+    display: flex;
+    gap: 50px;
+}
+.container{
+    display: grid;
+    place-items: center;
+    height: 450px;
+    color: white;
+}
+.signup-form{
+
+}
+.input{
+    display: block;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 20px 20px 20px 0px;
+    width: 600px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+.signupbtn{
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+.message{
+    padding-top: 20px;
+    display: none;
+}
+.error{
+    color: red;
+    font-size: 14px;
+}
+.success{
+    color: green;
+    font-size: 14px;
+}
+.profile-info{
+    font-size: 18px;
+}
