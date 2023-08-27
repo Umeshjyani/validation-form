@@ -54,5 +54,14 @@ body{
     font-size: 14px;
 }
 .profile-info{
-    font-size: 18px;
+    font-size: 25px;
+}
+.profile{
+    height: 500px;
+    width: 500px;
+    color: white;
+    padding: 20px;
+}
+.new{
+    font-size: 35px;
 }
