@@ -28,7 +28,7 @@ function submidata(){
         if(getuser!="" || !getuser.accessToken !=""){
             showMessage("success", "Signup successful. Redirecting to profile...");
             setTimeout(() => {
-                window.location.href = "profile.html";
+                window.location.href = "Profile.html";
             }, 2000);
         }
         else{
